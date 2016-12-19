@@ -103,7 +103,7 @@ public class App {
 
     App app = new App();
 
-    LOGGER.info("Elf Kingdom");
+    LOGGER.info("Elf Kingdom 1");
     app.createKingdom(new ElfKingdomFactory());
     LOGGER.info(app.getArmy().getDescription());
     LOGGER.info(app.getCastle().getDescription());
